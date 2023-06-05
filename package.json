@@ -1,14 +1,16 @@
 {
-	"name": "abdo-project",
+	"name": "Node-Env",
 	"version": "1.0.0",
 	"description": "students grades",
 	"main": "server.ts",
 	"scripts": {
-		"dev": "nodemon src/server.ts"
+		"dev": "nodemon src/server.ts",
+		"build": "tsc",
+    	"start": "npm run build && node dist/index.js"
 	},
 	"repository": {
 		"type": "git",
-		"url": "None"
+		"url": "https://github.com/Adosh74/Node-Env"
 	},
 	"author": "Mohamed Shebl",
 	"license": "ISC",
